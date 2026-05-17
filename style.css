@@ -89,8 +89,8 @@ html {
    color: var(--gray);
  }
  .header__list-link.active {
-   color: yellow;
-   border-bottom: 1px solid var(--orange);
+   color: black;
+   border-bottom: 1px solid var(--dark);
    padding-bottom: 3px;
  }
 .header__list {
