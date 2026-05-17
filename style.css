@@ -75,7 +75,36 @@ html {
 .header__button:hover, .hero__button:hover {
   opacity: 90%;
 }
-
+@media (min-width: 768px) {.header  {
+  padding-block: 10px 0;
+}
+ .nav {
+  display: flex;
+  flex-direction: row;
+}
+.header__list-link {
+   font-weight: bold;
+   font-size: 5px;
+   letter-spacing: -0.47px;
+   color: var(--gray);
+ }
+ .header__list-link.active {
+   color: yellow;
+   border-bottom: 1px solid var(--orange);
+   padding-bottom: 3px;
+ }
+.header__list {
+  display: flex;
+  gap: 15px;
+}
+.header__button {
+    font-size: 10px;
+  letter-spacing: -0.53px;
+  color: white;
+  padding: 7px 29px;
+  border-radius: 5px;
+} 
+}
 .main {
   margin-top: 141px;
 }
