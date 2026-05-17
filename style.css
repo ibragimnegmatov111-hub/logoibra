@@ -75,6 +75,18 @@ html {
 .header__button:hover, .hero__button:hover {
   opacity: 90%;
 }
+@media (min-width: 768px) {.header  {
+  padding-block: 10px 0;
+}
+ .nav {
+  display: flex;
+  flex-direction: row;
+}
+.header__list {
+  display: flex;
+  gap: 15px;
+}
+}
 .main {
   margin-top: 141px;
 }
