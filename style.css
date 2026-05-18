@@ -36,7 +36,7 @@ html {
  }
  .header__list {
    display: flex;
-   gap: 49px;
+   gap: 29px;
  }
  ul {
    list-style: none;
@@ -81,6 +81,9 @@ html {
  .nav {
   display: flex;
   flex-direction: row;
+}
+.header__list {
+gap:49px;
 }
 .header__list-link {
    font-weight: bold;
