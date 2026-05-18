@@ -131,7 +131,7 @@ html {
 .hero__image {
   position: absolute;
   top:0;
-  right: 10px;
+  right: -10px;
 }
 .hero__title {
   font-weight: 700;
@@ -180,7 +180,9 @@ html {
    .hero__image {
   position: absolute;
   top:0;
-  right: -75px; }
+  right: -75px; 
+   }
+   
 .hero__title {
   font-weight: 700;
   font-size: 80px;
