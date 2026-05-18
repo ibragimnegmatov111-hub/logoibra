@@ -78,13 +78,12 @@ html {
 @media (min-width: 769px) {.header  {
   padding-block: 30px 0;
 }
- .nav {
+ header__nav {
   display: flex;
   flex-direction: row;
 }
 .header__list {
    display: flex;
-gap:49px;
 }
 .header__list-link {
    font-weight: bold;
