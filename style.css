@@ -83,6 +83,7 @@ html {
   flex-direction: row;
 }
 .header__list {
+   display: flex;
 gap:49px;
 }
 .header__list-link {
