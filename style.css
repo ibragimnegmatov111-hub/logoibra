@@ -116,7 +116,7 @@ html {
 } 
 }
 .main {
-  margin-top: 141px;
+  margin-top: 80px;
 }
 .hero {
   padding-block: 40px;
@@ -131,7 +131,7 @@ html {
 .hero__image {
   position: absolute;
   top:0;
-  right: -50px;
+  right: -35px;
 }
 .hero__title {
   font-weight: 700;
@@ -167,6 +167,9 @@ html {
 }
 
 @media (min-width: 769px ) {
+   .main {
+  margin-top: 141px;
+}
    .hero {
       padding-block: 70px;
 }
