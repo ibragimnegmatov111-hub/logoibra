@@ -131,7 +131,7 @@ html {
 .hero__image {
   position: absolute;
   top:0;
-  left: 75px;
+  margin-left: 100px;
 }
 .hero__title {
   font-weight: 700;
