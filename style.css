@@ -19,14 +19,14 @@ html {
  }
  .header {
   position: fixed;
-  width: 400px;
+    width: 100%;
   background: white;
   z-index: 999;
   top: 0;
   padding-block: 10px 0;
  }
  [class*="__container"] {
-    max-width: 1069px;
+    max-width: 900px;
     margin-inline: auto;
  }
  .header__nav {
