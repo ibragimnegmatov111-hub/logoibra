@@ -115,6 +115,12 @@ html {
   border-radius: 5px;
 } 
 }
+
+
+
+
+
+
 .main {
   margin-top: 80px;
 }
@@ -131,7 +137,7 @@ html {
 .hero__image {
   position: absolute;
   top:0;
-  left: 100px;
+  left: 200px;
 }
 .hero__title {
   font-weight: 700;
@@ -165,6 +171,15 @@ html {
   border: 1px solid #E7E7E7;
   border-radius: 100px;
 }
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 769px ) {
    .main {
