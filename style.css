@@ -123,6 +123,7 @@ html {
 
 .main {
   margin-top: 80px;
+   padding: 50px;
 }
 .hero {
   padding-block: 40px;
@@ -137,7 +138,7 @@ html {
 .hero__image {
   position: absolute;
   top:0;
-  left: 200px;
+  left: 250px;
 }
 .hero__title {
   font-weight: 700;
